@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Owner - <a href=https://t.me/Myanguku_sharingan>Manjirou Sano</a>\nMy Channel - <a href=https://t.me/Animes_Station>Anime Station</a>\nChat Group - <a href=https://t.me/AnimeStation_Chat>Anime Station Chat</a>\n\n👨‍💻 Our Network - <a href=https://t.me/AS_Networks>AS Network</a></b>",
+            text = f"<b>Owner - <a href=https://t.me/living_being_bot>अजनबी</a>\nMy Channel - <a href=https://t.me/Animes_Station>Anime Station</a>\nChat Group - <a href=https://t.me/AnimeStation_Chat>Anime Station Chat</a>\n\n👨‍💻 Our Network - <a href=https://t.me/AS_Networks>AS Network</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
